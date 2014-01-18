@@ -1,8 +1,8 @@
 Batch downloads documents in a given collection from archive.org.
 Examples:
-```Shell
+```shell
 #Download issues of American Woodworker to the current directory (the default)
-python3 download.py --collection=american-woodworker
+python3 download.py --collection=americanwoodworker
 
 #Download issues of Today's Woodworker to /home/justif/todays-woodworker in epub
 python3 download.py --collection=todayswoodworker --format=epub --destination=~/todays-woodworker
